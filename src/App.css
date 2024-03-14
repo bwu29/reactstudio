@@ -1,9 +1,48 @@
 /* Add styling for your page here */
-
+/* Styling for App component */
 .App {
-
-}
-
-.BakeryItem {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
   
-}
+  /* Styling for BakeryItem component */
+  .item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .item img {
+    height: 350px;
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .item .details {
+    text-align: left;
+  }
+  
+  .item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .item p {
+    margin-bottom: 5px;
+  }
+  
+  .item button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .item button:hover {
+    background-color: #45a049;
+  }
+  
